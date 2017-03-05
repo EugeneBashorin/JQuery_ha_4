@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Тест</title>
+      <meta charset="utf-8" />
+	  <link rel="stylesheet" href="style.css" type="text/css" />
+	  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	</head>
+   <body>
+		<header class="blockHeader">
+			<a class="webLogo" href="index.html"><img src="Image/webLogo.png" alt="webLogo" height="100" ></a>
+			<h1 class="headFirst">Основы Web-технологий</h1>
+			<nav class="navigation">
+				<ul class="mainNav">
+					<li class="mainLi"><a href="index.html">Главная</a></li>
+					<li class="mainLi"><a href="webTech.html">Web-технологии</a>
+						<ul class="secondaryNav">
+							<li class="secondaryNavLi"><a href="html5.html">HTML5</a></li>
+							<li class="secondaryNavLi"><a href="css3.html">CSS3</a></li>
+							<li class="secondaryNavLi"><a href="javaScript.html">JavaScript</a></li>
+						</ul>
+					</li>
+					<li class="mainLi"><a href="calculator.html">Калькулятор</a></li>
+					<li class="mainLi"><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="mainForIE">
+			<!--<main>-->
+				<form class="testHtmlCssJs" name="testHtmlCssJs">
+					<span>Какой тег предназначен для создания ссылок:</span><br />
+						<label><input class="radioBut" type="radio" name="quest1" value="1" />&lt;a&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest1" value="0" />&lt;a /&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest1" value="0" />&lt;ref&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest1" value="0" />&lt;ref /&gt;</label><br /><br />
+					<span>Какой тег предназначен для создания нумерованного списка:</span><br />
+						<label><input class="radioBut" type="radio" name="quest2" value="0;" />&lt;li&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest2" value="0" />&lt;dl&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest2" value="1" />&lt;ol&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest2" value="0" />&lt;ul&gt;</label><br /><br />
+					<span>Какой тег предназначен для передачи служебной информации браузеру:</span><br />
+						<label><input class="radioBut" type="radio" name="quest3" value="0" />&lt;info&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest3" value="0" />&lt;info /&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest3" value="0" />&lt;meta&gt;</label><br />
+						<label><input class="radioBut" type="radio" name="quest3" value="1" />&lt;meta /&gt;</label><br /><br />
+					<span>Какие теги используются при создании таблицы:</span><br />
+						<label><input class="checkBoxBut1" type="checkbox" name="quest4" value="0" />&lt;bodyt&gt;</label><br />
+						<label><input class="checkBoxBut1" type="checkbox" name="quest4" value="0.5" />&lt;td&gt;</label><br />
+						<label><input class="checkBoxBut1" type="checkbox" name="quest4" value="0.5" />&lt;caption&gt;</label><br />
+						<label><input class="checkBoxBut1" type="checkbox" name="quest4" value="0" />&lt;column&gt;</label><br /><br />
+					<span>Какие атрибуты используются при создании форм:</span><br />
+						<label><input class="checkBoxBut2" type="checkbox" name="quest5" value="0.5" />autocomplete</label><br />
+						<label><input class="checkBoxBut2" type="checkbox" name="quest5" value="0.5" />action</label><br />
+						<label><input class="checkBoxBut2" type="checkbox" name="quest5" value="0" />charset</label><br />
+						<label><input class="checkBoxBut2" type="checkbox" name="quest5" value="0" />validate</label><br />
+						
+					<button type="button" id="testResult" name="result" >Результат</button>
+				</form>
+			<!--</main>-->
+		</div>
+		<footer>
+			<address>
+				<a href="bashorinjeka@gmail.com">Пишите: bashorinjeka@gmail.com</a><br />
+			</address>
+			<span>&copy; Башорин Е.С., 2017</span>
+		</footer>
+		<script src= "test.js"></script>
+   </body>
+</html>

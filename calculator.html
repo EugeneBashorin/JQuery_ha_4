@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Калькулятор</title>
+      <meta charset="utf-8" />
+	  <link rel="stylesheet" href="style.css" type="text/css" />
+	  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	</head>
+   <body>
+		<header class="blockHeader">
+			<a class="webLogo" href="index.html"><img src="Image/webLogo.png" alt="webLogo" height="100" /></a>
+			<h1 class="headFirst">Основы Web-технологий</h1>
+			<nav class="navigation">
+				<ul class="mainNav">
+					<li class="mainLi"><a href="index.html">Главная</a></li>
+					<li class="mainLi"><a href="webTech.html">Web-технологии</a>
+						<ul class="secondaryNav">
+							<li class="secondaryNavLi"><a href="html5.html">HTML5</a></li>
+							<li class="secondaryNavLi"><a href="css3.html">CSS3</a></li>
+							<li class="secondaryNavLi"><a href="javaScript.html">JavaScript</a></li>
+						</ul>
+					</li>
+					<li class="mainLi"><a href="calculator.html">Калькулятор</a></li>
+					<li class="mainLi"><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="mainForIE">
+			<!--<main>-->
+				<form name="calculator" >
+					<table class="calculator">
+						<tr>
+							<td colspan="5"><input id="resCalcDisplay" type="text" name="resCalcDisplay" value="0" ></td> <!--dir="rtl"-->
+						</tr>
+						<tr>
+							<td><button class="calcButton" type="button" name="sevenButton" value="7" >7</button></td>
+							<td><button class="calcButton" type="button" name="eightButton" value="8" >8</button></td>
+							<td><button class="calcButton" type="button" name="nineButton" value="9" >9</button></td>
+							<td><button class="calcButton" type="button" name="divideButton" value="/" >/</button></td>
+							<td><button class="calcButton" type="button" name="clearButton" value="C" >C</button></td>
+						</tr>
+						<tr>
+							<td><button class="calcButton" type="button" name="fourButton" value="4" >4</button></td>
+							<td><button class="calcButton" type="button" name="fiveButton" value="5" >5</button></td>
+							<td><button class="calcButton" type="button" name="sixButton" value="6" >6</button></td>
+							<td><button class="calcButton" type="button" name="multiplyButton" value="*" >*</button></td>
+							<td><button class="calcButton" type="button" name="plusMinusButton" value="plusMinus" >&#177;</button></td>
+						</tr>
+						<tr>
+							<td><button class="calcButton" type="button" name="oneButton" value="1" >1</button></td>
+							<td><button class="calcButton" type="button" name="twoButton" value="2" >2</button></td>
+							<td><button class="calcButton" type="button" name="threeButton" value="3" >3</button></td>
+							<td><button class="calcButton" type="button" name="minusButton" value="-" >-</button></td>
+							<td rowspan="2"><button class="calcButton" id="calcResButton" type="button" name="resButton" value="=">=</button></td>
+						</tr>
+						<tr>
+							<td colspan="2"><button class="calcButton" id="zeroCalcButton" type="button" name="zeroCalcButton" value="0">0</button></td>
+							<td><button class="calcButton" type="button" name="dotButton" value="." >.</button></td>
+							<td><button class="calcButton" type="button" name="plusButton" value="+" >+</button></td>
+						</tr>
+					</table>
+				</form>
+			<!--</main>-->
+		</div>
+		<footer>
+			<address>
+				<a href="bashorinjeka@gmail.com">Пишите: bashorinjeka@gmail.com</a><br />
+			</address>
+			<span>&copy; Башорин Е.С., 2017</span>
+		</footer>
+		<script src="calculator.js"></script>
+   </body>
+   
+</html>
